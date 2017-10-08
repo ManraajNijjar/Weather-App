@@ -1,5 +1,6 @@
 const request = require('request');
 const yargs = require('yargs');
+const axios = require('axios');
 
 const geocode = require('./geocode/geocode');
 const weather = require('./weather/weather');
